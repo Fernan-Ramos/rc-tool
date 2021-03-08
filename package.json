@@ -1,0 +1,16 @@
+{
+  "name": "react-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create:small": "./create_component.sh",
+    "create:big": "./create_component_with_view.sh"
+  },
+  "bin": {
+    "create:small": "./create_component.sh",
+    "create:big": "./create_component_with_view.sh"
+  },
+  "author": "",
+  "license": "ISC"
+}
