@@ -2,15 +2,20 @@
   "name": "react-cli",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "create:small": "./create_component.sh",
-    "create:big": "./create_component_with_view.sh"
+    "rc-small": "./lib/small.js",
+    "rc-big": "babel-node ./lib/big.js"
   },
   "bin": {
-    "create:small": "./create_component.sh",
-    "create:big": "./create_component_with_view.sh"
+    "rc-small": "./lib/small.js",
+    "rc-big": "./lib/big.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Fernán-Ramos",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.13.10",
+    "@babel/core": "^7.13.10",
+    "@babel/node": "^7.13.10",
+    "@babel/preset-env": "^7.13.10"
+  }
 }
