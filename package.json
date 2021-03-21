@@ -10,6 +10,10 @@
     "rc-small": "./lib/small.js",
     "rc-big": "./lib/big.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fernan-Ramos/rc-tool.git"
+  },
   "author": "Fernán-Ramos",
   "license": "ISC",
   "devDependencies": {
