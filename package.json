@@ -1,6 +1,6 @@
 {
   "name": "rc-tool",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React cli tool",
   "scripts": {
     "rc-small": "babel-node ./lib/small.js",
