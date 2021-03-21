@@ -1,9 +1,9 @@
 {
-  "name": "react-cli",
+  "name": "rc-tool",
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "rc-small": "./lib/small.js",
+    "rc-small": "babel-node ./lib/small.js",
     "rc-big": "babel-node ./lib/big.js"
   },
   "bin": {
