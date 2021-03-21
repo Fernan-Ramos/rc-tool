@@ -1,9 +1,12 @@
 name: Publish workflow
 
-on: push
+on:  
+  push:
+    tags:
+      - '*'
 
 jobs:
-    build:
+    publish:
         runs-on: ubuntu-latest
         steps:
             - name: Check out source code
